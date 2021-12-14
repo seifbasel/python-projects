@@ -312,6 +312,7 @@ while  end_game==True:
         
     if guess not in random_word:
         lives -= 1
+        print("that not a right letter you lost a life ")
         if lives == 0:
             end_game=False
             
