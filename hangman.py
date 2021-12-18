@@ -1,5 +1,4 @@
 import random
-
 word_list = [
     'abruptly',
     'absurd',
@@ -215,6 +214,7 @@ word_list = [
     'zodiac',
     'zombie',
 ]
+
 random_word=random.choice(word_list)
 word=[]
 for j in random_word:
@@ -230,6 +230,7 @@ logo = '''
 |_| |_|\__,_|_| |_|\__, |_| |_| |_|\__,_|_| |_|
                     __/ |                      
                    |___/    '''
+
 print(logo)
 stages = ['''
   +---+
@@ -287,6 +288,7 @@ stages = ['''
       |
 =========
 ''']
+
 lives =6
 
 display = []
@@ -321,5 +323,3 @@ while  end_game==True:
     if "_" not in display:
         end_game=False
         print("you win ")
-        
-
