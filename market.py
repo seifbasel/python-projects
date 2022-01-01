@@ -51,7 +51,7 @@ def iot():
 
 def robotics():
     choice_robot = int(input(print(
-        " for robot 1 enter 1:  \n for robot 2 enter 2:  \n for robot 13 enter 3: ")))
+        " for robot 1 enter 1:  \n for robot 2 enter 2:  \n for robot 3 enter 3: ")))
     robot_name = ["robot 1", "robot 2", "robot 3"]
     robot_price = [200000, 500000, 300000]
     discount = .25
@@ -85,9 +85,7 @@ def laptops():
 
 
 name = str(input(print("what is your name?")))
-print(f" hi {name}")
-print("welcome to our store")
-print("please choose a category")
+print(" hi " , name ,"\n welcome to our store \n please choose a category ")
 choice = int(input(print(
     " for tvs enter 1:  \n for colders enter 2:  \n for iot enter 3: \n for robotcs enter 4: \n for laptops enter 5: ")))
 
