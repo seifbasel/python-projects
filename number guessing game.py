@@ -48,11 +48,13 @@ def easy():
         elif soulation == the_number:
             print("right number you won")
             break
+    
 
 
 print(logo)
 print("\n welcome to the game")
-q1="what level do you want to play( easy / hard )"
+print("\n guess the number from 0 to 100 ???")
+q1="\n what level do you want to play( easy / hard )"
 level = str(input(f"{q1}"))
 
 if level=="easy":
