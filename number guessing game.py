@@ -23,8 +23,9 @@ def hard():
     the_number = random.choice(numbers_list)
     remaining_lives=5
     for j in range(5):
+        print(f"remaining lives is {remaining_lives}")
         remaining_lives = remaining_lives-1
-        soulation=int(input("enter the number:"))
+        soulation=int(input("guess the number:"))
         if soulation > the_number :
             print("too high")
         elif soulation < the_number:
@@ -32,14 +33,14 @@ def hard():
         elif soulation == the_number:
             print("right number you won")
             break
-        print(f"remaining lives is {remaining_lives}")
 
 def easy():
     the_number = random.choice(numbers_list)
     remaining_lives = 10
     for j in range(10):
+        print(f"remaining lives is {remaining_lives}")
         remaining_lives = remaining_lives-1
-        soulation = int(input("enter the number:"))
+        soulation = int(input("guess the number:"))
         if soulation > the_number:
             print("too high")
         elif soulation < the_number:
@@ -47,7 +48,6 @@ def easy():
         elif soulation == the_number:
             print("right number you won")
             break
-        print(f"remaining lives is {remaining_lives}")
 
 
 print(logo)
