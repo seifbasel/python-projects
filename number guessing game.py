@@ -1,7 +1,6 @@
 import random
 from turtle import clear
 
-
 logo = """
                                  _    _                                      _                 
                                 | |  | |                                    | |                
@@ -13,11 +12,9 @@ logo = """
   |___/                                                                                        
 
 """
-
 numbers_list = []
 for i in range(101):
     numbers_list.append(i)
-
 
 def hard():
     the_number = random.choice(numbers_list)
@@ -48,9 +45,7 @@ def easy():
         elif soulation == the_number:
             print("right number you won")
             break
-    
-
-
+        
 print(logo)
 print("\n welcome to the game")
 print("\n guess the number from 0 to 100 ???")
@@ -61,4 +56,3 @@ if level=="easy":
     easy()
 elif level=="hard":
     hard()
-    
